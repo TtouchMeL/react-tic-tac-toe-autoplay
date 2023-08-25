@@ -32,7 +32,29 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.board-row {
+  display: flex;
+  width: fit-content;
+  margin: auto;
+}
+
+.game-info {
+  width: fit-content;
+  margin: auto;
+}
+
+.status {
+  text-align: center;
+  margin: 20px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
 }
